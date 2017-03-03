@@ -1,0 +1,9 @@
+Base de datos:
+Mysql: 5.7
+Desarrollo web:
+Ruby 2.2 (http://railsinstaller.org/en)
+PHP 7.1
+HTML 5
+
+
+Cargar el sql de BaseDeDatos/buenos_planes.sql

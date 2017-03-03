@@ -1,0 +1,19 @@
+Scraping	001
+Tomar información de los lugares de otras páginas web y mostrarlas en nuestra página.
+Criterio de aceptación:
+Se debe poder apreciar la información en la página web.
+Fecha: 3/03/2017
+
+Base de datos	002
+Tomar los datos del scraping clasificarlos y añadirlos a la base de datos.
+Criterio de aceptación:
+Los datos mostrados no deben estar repetidos.
+Fecha: 3/03/2017
+
+Clasificación	003
+Los lugares se deben poder calificar por bueno o malo de forma anónima.
+Criterio de aceptación:
+Cada lugar debe mostrar el número de votos y un número del 1 al 5 que califique que tan bueno es el lugar.
+Fecha: 3/03/2017
+
+

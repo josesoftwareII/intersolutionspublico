@@ -1,0 +1,21 @@
+Archivos planos. X
+
+Historia de usuario fechas, detalles. X?
+
+Organisacion por carpetas.X
+
+Planes gratis.
+
+Base de datos: añadir imagen.X
+
+Modelo de clases: IMPORTANTE.
+
+Modelo de despliegue: especificar mas.
+
+Ordenar codigo.
+
+Archivo de configuracion tutorial del despleguie de la aplicacion.
+
+Conseguir server
+
+Quitar basura del express. Mas simple.
