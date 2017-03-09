@@ -1,21 +1,29 @@
-Archivos planos. X
 
-Historia de usuario fechas, detalles. X?
+David{Base de datos simple: descripcion 250 varChar
+Base de datos simple:Campo link imagen 300
+Base de datos pro: añadir imagen diseño.
+script llenar info y consultar
+Logo}
 
-Organisacion por carpetas.X
-
-Planes gratis.
-
-Base de datos: a�adir imagen.X
-
-Modelo de clases: IMPORTANTE.
-
-Modelo de despliegue: especificar mas.
-
+Ivan{
 Ordenar codigo.
-
-Archivo de configuracion tutorial del despleguie de la aplicacion.
-
-Conseguir server
-
+Modelo de despliegue: especificar mas.
 Quitar basura del express. Mas simple.
+}
+
+Jose{
+Prototipo de GUI
+Modelo de clases: IMPORTANTE.
+}
+
+all{
+mas paginas de info
+Archivo de configuracion tutorial del despleguie de la aplicacion. 
+}
+
+Pruebas{
+David: Formularios
+Ivan: rendimiento
+Jose: usabilidad, compatibilidad
+}
+
