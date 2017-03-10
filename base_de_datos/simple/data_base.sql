@@ -7,9 +7,9 @@
 /*==============================================================*/
 create table places
 (
-   id_place             integer                        not null,
-   id_ubicated          integer                        null,
-   name_place           char(15)                       not null,
+   id_place             int(4)                        not null,
+   id_ubicated          int(4)                        null,
+   name_place           varchar(15)                    not null,
    constraint pk_places primary key (id_place)
 );
 
@@ -32,12 +32,12 @@ id_ubicated asc
 /*==============================================================*/
 create table sites
 (
-  id_site              integer                        not null,
-  id_ubicated          integer                        null,
-  name_site            char(20)                       not null,
-  cost_site            integer                        not null,
-  description_site     char(250)                      not null,
-  link_image_site      char(300)                      not null,
+  id_site              int(4)                        not null,
+  id_ubicated          int(4)                        null,
+  name_site            varchar(20)                    not null,
+  cost_site            int(11)                        not null,
+  description_site     varchar(250)                   not null,
+  link_image_site      varchar(300)                   not null,
   constraint pk_sites primary key (id_site)
 );
 
@@ -71,3 +71,5 @@ alter table sites
       references places (id_place)
       on update restrict
       on delete restrict;
+
+INSERT INTO `places` (`id_place`, `id_ubicated`, `name_place`) VALUES (NULL, NULL, 'Tunja');

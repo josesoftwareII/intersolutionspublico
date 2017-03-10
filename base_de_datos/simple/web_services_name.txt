@@ -1,0 +1,2 @@
+http://intersolutios.000webhostapp.com/web_services/sites/select_sites.php
+http://intersolutios.000webhostapp.com/web_services/sites/insert_site.php?id_ubicated=1&name_site=&cost_site=&description_site=&link_image_site=
