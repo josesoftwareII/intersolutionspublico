@@ -32,12 +32,13 @@ id_ubicated asc
 /*==============================================================*/
 create table sites
 (
-   id_site              integer                        not null,
-   id_ubicated          integer                        not null,
-   name_site            char(20)                       not null,
-   cost_site            integer                        not null,
-   description_site     char(100)                      not null,
-   constraint pk_sites primary key (id_site)
+  id_site              integer                        not null,
+  id_ubicated          integer                        null,
+  name_site            char(20)                       not null,
+  cost_site            integer                        not null,
+  description_site     char(250)                      not null,
+  link_image_site      char(300)                      not null,
+  constraint pk_sites primary key (id_site)
 );
 
 /*==============================================================*/
