@@ -1,9 +1,7 @@
 
-David{Base de datos simple: descripcion 250 varChar
-Base de datos simple:Campo link imagen 300
-Base de datos pro: añadir imagen diseño.
-script llenar info y consultar
-Logo}
+David{
+Logo
+}
 
 Ivan{
 Ordenar codigo.
