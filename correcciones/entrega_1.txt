@@ -4,9 +4,7 @@ Logo
 }
 
 Ivan{
-Ordenar codigo.
-Modelo de despliegue: especificar mas.
-Quitar basura del express. Mas simple.
+correcciones realizadas
 }
 
 Jose{
