@@ -3,7 +3,7 @@
 
 	<head>
 
-		<title><h1>BuenosPlanes</h1></title>
+		<h1><title>BuenosPlanes</title></h1>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,9 +12,6 @@
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	</head>
 
@@ -40,32 +37,31 @@
 						</div>
 						<div class="list-group-item">
 							<h4 class="list-group-item-heading">
-								<?php
-							require 'libs/simplehtmldom/simple_html_dom.php';
+								
+							<?php
+$servername = "localhost";
+$username="id986069_intersolutions";
+$password="intersolutions10";
+$dbname="id986069_tareas";
 
-							$html = new simple_html_dom();
-							$html->load_file('http://www.minube.com/que_ver/colombia/boyaca/tunja');
-							$titles = $html->find('.name');
-							$desc   = $html->find('.description');
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 
-							$counter=1;
-							$count =0;
+$sql = "SELECT name_site, description_site FROM sites";
+$result = $conn->query($sql);
 
-							foreach ($titles as $title) {
-								if (($counter%2)==0) {
-									$count++;
-								} else {
-	//echo "titulo : ";
-									echo "<h3>" . "<b>" . $title->innertext . "</b>" . "</h3>" ;
-									echo "</br>";
-	//echo "descripcion: ";
-									echo $desc[$count];
-									echo "<hr></br>";
-								}
-
-								$counter++;
-							}
-							?>
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        echo "<h3>" . "<b>" . $row["name_site"] . "</b>" . "</h3>";
+        echo $row["description_site"]. "<br>";
+        echo "<hr></br>";
+    }
+} else {
+    echo "0 results";
+}
+?>
 							</h4>
 						</div>
 						<div class="list-group-item">
@@ -76,16 +72,8 @@
 					<p>
 						Sitio desarrollado por InterSolutions
 					</p>
-					<p>
-						<a class="btn" href="#"></a>
-					</p>
 				</div>
 			</div>
 		</div>
-
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
-
 	</body>
 	</html>
