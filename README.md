@@ -6,7 +6,7 @@
 #https://intersolutionsblog.wordpress.com/
 
 #Sitio Web
-#https://intersolutios.000webhostapp.com
+#https://BuenosPlanes.comeze.com
 
 #Medium:
 #https://medium.com/@josereyes_47728/a29dd0994cd8#.s8sdwqghu
