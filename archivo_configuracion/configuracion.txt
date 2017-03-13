@@ -1,9 +1,18 @@
 Base de datos:
-Mysql: 5.7
+
+MariaDB server 10.1 sever
+Mysql 4.6
+
+Servidor:
+
+000WebHost (https://www.000webhost.com/cpanel-login)
+usuario: ivan.espitia@uptc.edu.co
+contraseña: intersolutions10
+
 Desarrollo web:
-Ruby 2.2 (http://railsinstaller.org/en)
-PHP 7.1
-HTML 5
 
+bootstrap 3.3.7 (http://getbootstrap.com/getting-started/#download)
+JQuery 2.0.3
+PHP 5 o superior
+PHP Simple HTML DOM Parser (http://simplehtmldom.sourceforge.net/) 
 
-Cargar el sql de BaseDeDatos/buenos_planes.sql
