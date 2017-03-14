@@ -1,9 +1,8 @@
 <?php
-function insert($table,$values){
+function insert($sql){
 	include 'connect.php';
-	//echo "INSERT INTO $table VALUES ($values)";
-	$result=$connection->query("INSERT INTO $table VALUES ($values)") or die("Error_".mysqli_error($connection));
-	//@mysql_close($connection);
+	$result=$connection->query($sql) or die("Error_".mysqli_error($connection));
+	@mysql_close($connection);
     echo $result;
 }
 ?>
