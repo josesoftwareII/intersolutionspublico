@@ -24,34 +24,6 @@ foreach ($titles as $title) {
 }
 
 $arrlength = count($nombre);
-
-$servername = "localhost";
-$username="id986069_intersolutions";
-$password="intersolutions10";
-$dbname="id986069_tareas";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-
-$sql .= "INSERT INTO sites (name_site, description_site)
-    VALUES ('$nombre[0]', '$descripcion[0]');";
-
-for($x = 1; $x < $arrlength; $x++) {
-    echo $nombre[$x];
-    echo "<br>";
-    echo $descripcion[$x];
-    echo "</br>";
-    $sql .= "INSERT INTO sites (name_site, description_site)
-    VALUES ('$nombre[$x]', '$descripcion[$x]');";
-}
-
-if ($conn->multi_query($sql) === TRUE) {
-    echo "New records created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-$conn->close();
+include 'scripts/sities/insert_site.php'
+	
 ?>
