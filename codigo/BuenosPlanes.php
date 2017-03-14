@@ -39,28 +39,7 @@
 							<h4 class="list-group-item-heading">
 								
 							<?php
-$servername = "localhost";
-$username="id986069_intersolutions";
-$password="intersolutions10";
-$dbname="id986069_tareas";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SELECT name_site, description_site FROM sites";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc()) {
-        echo "<h3>" . "<b>" . $row["name_site"] . "</b>" . "</h3>";
-        echo $row["description_site"]. "<br>";
-        echo "<hr></br>";
-    }
-} else {
-    echo "0 results";
-}
+include 'scripts/sities/select_sites.php';
 ?>
 							</h4>
 						</div>
