@@ -1,7 +1,7 @@
 <?php
 $host="localhost";
 $user="id986069_intersolutions";
-$pw="intersolutions10";
+$pw="";
 $db="id986069_tareas";
 $connection=new mysqli($host, $user, $pw, $db);
 if ($connection->connect_errno){

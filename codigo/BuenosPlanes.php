@@ -37,10 +37,9 @@
 						</div>
 						<div class="list-group-item">
 							<h4 class="list-group-item-heading">
-								
-							<?php
-include 'scripts/sities/select_sites.php';
-?>
+								<?php
+									include 'php/sites/select_sites.php';
+								?>
 							</h4>
 						</div>
 						<div class="list-group-item">

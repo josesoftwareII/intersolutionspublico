@@ -1,5 +1,5 @@
 <?php
-include '../lib/select.php';
+include 'php/lib/select.php';
 $result=select("SELECT name_site, description_site FROM sites");
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
