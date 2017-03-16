@@ -24,6 +24,6 @@ foreach ($titles as $title) {
 }
 
 $arrlength = count($nombre);
-include 'scripts/sities/insert_site.php'
-	
+include 'php/sites/insert_site.php'
+
 ?>
