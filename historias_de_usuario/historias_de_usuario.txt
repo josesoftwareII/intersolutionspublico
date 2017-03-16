@@ -1,19 +1,14 @@
 Scraping	001
-Tomar informaci髇 de los lugares de otras p醙inas web y mostrarlas en nuestra p醙ina.
-Criterio de aceptaci髇:
-Se debe poder apreciar la informaci髇 en la p醙ina web.
+Tomar informaci贸n de los lugares de otras p谩ginas web y mostrarlas en nuestra p谩gina.
+Criterio de aceptaci贸n:
+Se debe poder apreciar la informaci贸n en la p谩gina web.
 Fecha: 3/03/2017
 
 Base de datos	002
-Tomar los datos del scraping clasificarlos y a馻dirlos a la base de datos.
-Criterio de aceptaci髇:
+Tomar los datos del scraping clasificarlos y a帽adirlos a la base de datos.
+Criterio de aceptaci贸n:
 Los datos mostrados no deben estar repetidos.
 Fecha: 3/03/2017
 
-Clasificaci髇	003
-Los lugares se deben poder calificar por bueno o malo de forma an髇ima.
-Criterio de aceptaci髇:
-Cada lugar debe mostrar el n鷐ero de votos y un n鷐ero del 1 al 5 que califique que tan bueno es el lugar.
-Fecha: 3/03/2017
 
 
