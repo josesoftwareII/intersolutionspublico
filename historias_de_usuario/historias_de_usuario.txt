@@ -1,14 +1,20 @@
-Scraping	001
-Tomar información de los lugares de otras páginas web y mostrarlas en nuestra página.
-Criterio de aceptación:
-Se debe poder apreciar la información en la página web.
+﻿Id:	001
+Nombre: Captura de informacion de sitios web 
+Descripcion: Se realiza una captura de informacion de uno o varios sitios web referentes al area de planes de salidas y se almacenaran en la base de datos la informacion como nombre del lugar, direccion, descripcion del lugar, imagen del lugar y ubicacion. 
+Criterio de aceptación: Se debe ver la informacion guardada en la base de datos.
 Fecha: 3/03/2017
 
-Base de datos	002
-Tomar los datos del scraping clasificarlos y añadirlos a la base de datos.
-Criterio de aceptación:
-Los datos mostrados no deben estar repetidos.
+Id:	002
+Nombre: Mostrar informacion almacenada.
+Descripcion: Toma la informacion de la base de datos y la muestra el nombre, la descripcion, la ubicacion y la imagen en la pagina web.
+Criterio de aceptación: La informacion de la base de datos debe ser la misma que se muestra en la pagina web.
 Fecha: 3/03/2017
+
+Id:	003
+Nombre: 
+Descripcion: 
+Criterio de aceptación: 
+Fecha: 21/03/2017
 
 
 
