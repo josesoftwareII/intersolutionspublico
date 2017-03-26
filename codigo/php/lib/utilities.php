@@ -5,8 +5,8 @@ function point($string){
 		if (strcmp($string[$i], ".")==0) {
 			$stringPoint.=$string[$i];
 			return rtrim(ltrim($stringPoint));
-		}else$stringPoint.=$string[$i];
-}
-return rtrim(ltrim($stringPoint));
+		}else $stringPoint.=$string[$i];
+	}
+	return rtrim(ltrim($stringPoint));
 }
 ?>
