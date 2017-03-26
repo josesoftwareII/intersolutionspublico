@@ -11,7 +11,7 @@ class UnitTest extends UnitTestCase{
     //$this->assertEqual("OK",scraping());
   }
   function testSelect(){
-    $result=select("SELECT name_site, description_site FROM sites WHERE id_site=802");
+    $result=select("SELECT name_site, description_site FROM sites WHERE name_site='Casa del Fundador'");
     $this->assertEqual("Casa del Fundador",$result->fetch_assoc()["name_site"]);
   }
 }
