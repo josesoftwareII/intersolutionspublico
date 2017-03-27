@@ -1,0 +1,29 @@
+para poder realizar este test es necesario descargar e instalar composer que es un administrador de 
+dependencias para el lenguage PHP que es el utilizado en este poroyecto, este se encuentra en el 
+siguiente link https://getcomposer.org/doc/00-intro.md
+
+despues de vamos a la terminal y comprobamos la version de composer utilizada.
+
+utilizando el comando "composer -V".
+
+Despues vamos a la carpeta donde se encuentra el proyecto desde la terminal, y realizamos las pruebas
+manuelmente con el standar Pear utilizado por PHPCodeSniffer, en donde comprueba la calidad de organizacion
+y entendimiento del codigo en determinado archivo. Para realizar esto, digitamos el siguiente comando:
+
+phpcs --standard=Pear "si es necesario su ruta/"nombreArchivo.php
+
+y este nos devolvera los errores o advertencias que existen en el archivo. Cada archivo PHP debe tener 
+una descripcion del mismo y debe ser de la siguiente manera:
+
+/**
+ * descripcion clase nombreClase
+ *
+ * PHP Version 5
+ *
+ * @category nombreClase
+ * @package  carpeta del archivo
+ * @author   nombreVisual nombre <correo> 
+ * @license  direccion URL de licencia de sitio en github 
+ * @link     link del repositorio del sitio
+ *
+ */
