@@ -20,7 +20,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h3 class="text-center text-muted">
-						BUENOS PLANES
+						BUENOS 
 					</h3>
 					<ul class="nav nav-tabs">
 						<li class="active">
