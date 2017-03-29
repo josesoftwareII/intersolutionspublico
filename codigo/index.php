@@ -1,57 +1,49 @@
-	<!DOCTYPE HTML>
-	<html lang="es">
+	<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-	<head>
+</head>
 
-		<h1><title>BuenosPlanes</title></h1>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<div class="navbar-fixed ">
+<nav>
+    <div class="nav-wrapper blue lighten-1">
+      <a href="http://buenosplanes.comeze.com" class="brand-logo center">BuenosPlanes</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="http://buenosplanes.comeze.com">Inicio</a></li>
+        <li><a href="#">Compartenos tu mejor plan</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="http://buenosplanes.comeze.com">Inicio</a></li>
+        <li><a href="#">Compartenos tu mejor plan</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	</head>
-
-	<body>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<h3 class="text-center text-muted">
-						BUENOS 
-					</h3>
-					<ul class="nav nav-tabs">
-						<li class="active">
-							<a href="#">INICIO</a>
-						</li>
-						<li class="dropdown pull-right open">
-							<br>
-						</li>
-					</ul>
-					<div class="list-group">
-						<a href="#" class="list-group-item active">LUGARES</a>
-						<div class="list-group-item">
-
-						</div>
-						<div class="list-group-item">
-							<h4 class="list-group-item-heading">
-								<?php
-									include 'php/sites/select_sites.php';
-								?>
-							</h4>
-						</div>
-						<div class="list-group-item">
-							<br>
-						</div> <a class="list-group-item active"><br></a>
-					</div>
-
-					<p>
-						Sitio desarrollado por InterSolutions
-					</p>
-				</div>
-			</div>
-		</div>
-	</body>
-	</html>
+  <div class = "conteiner light-blue lighten-1 col s12 m12 l12">
+     <div class="row">
+      <div class="col s12">
+        <?php
+        include 'php/sites/select_sites.php';
+?>      
+      </div>
+    </div>
+  </div>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+<script type="text/javascript">
+$( document ).ready(function(){
+  $(".button-collapse").sideNav();
+});
+  </script>
+</body>
+</html>
