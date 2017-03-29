@@ -27,3 +27,11 @@ una descripcion del mismo y debe ser de la siguiente manera:
  * @link     link del repositorio del sitio
  *
  */
+ 
+ ademas de cada clase, tambien cada funcion desarrollada debe llevar su respectiva documentacion que es la siguiente:
+ 
+ /**
+    * nombre de la funcion
+    *
+    * @return tipo de datos que retorna
+    */
