@@ -1,19 +1,19 @@
-﻿Id:	001
+Id:	001
 Nombre: Captura de informacion de sitios web 
-Descripcion: Se realiza una captura de informacion de uno o varios sitios web referentes al area de planes de salidas y se almacenaran en la base de datos la informacion como nombre del lugar, direccion, descripcion del lugar, imagen del lugar y ubicacion. 
+Descripcion: Se realiza una captura de informacion de uno o varios sitios web referentes al area de planes de salidas y se almacenaran en la base de datos la informacion como nombre del lugar, descripcion del lugar, imagen del lugar. 
 Criterio de aceptación: Se debe ver la informacion guardada en la base de datos.
 Fecha: 3/03/2017
 
 Id:	002
 Nombre: Mostrar informacion almacenada.
-Descripcion: Toma la informacion de la base de datos y la muestra el nombre, la descripcion, la ubicacion y la imagen en la pagina web.
+Descripcion: Toma la informacion de la base de datos y muestra el nombre, la descripcion, y la imagen planes existentes en la base de datos en la pagina web buenos Planes.
 Criterio de aceptación: La informacion de la base de datos debe ser la misma que se muestra en la pagina web.
 Fecha: 3/03/2017
 
 Id:	003
-Nombre: 
-Descripcion: 
-Criterio de aceptación: 
+Nombre: Agregar plan por parte del usuario
+Descripcion: La pagina web le dara al usuario la opcion de agregar un plan que este conozca y sea de su gusto, para que los demas usuarios puedan conocer y quiza realizar este plan.
+Criterio de aceptación: la informacion agregada por el usuario debe verse en el insio del sitio web Buenos Planes.
 Fecha: 21/03/2017
 
 
