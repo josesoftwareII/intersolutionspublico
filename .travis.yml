@@ -1,9 +1,8 @@
-language: php
-php:
-  - '5.4'
-  - '5.5'
-  - '5.6'
-  - '7.0'
-  - '7.1'
-  - hhvm
-  - nightly
+language: node.js
+node_js:
+- stable
+  script:bash ./deploy.sh
+  env: 
+  global:
+  -ENCRYPTION_LABEL: "<.... etiqueta de cifrado de la etapa anterior ....>"
+  -COMMIT_AUTHOR_EMAIL: "joseisrael.reyes@uptc.edu.co"
