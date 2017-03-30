@@ -1,7 +1,10 @@
-language: node.js
-node_js:
-- stable
+language: php
+php:
+- 5.5
+- 5.4
+-hvm
   script:bash ./deploy.sh
+  script: phpunit Test.php
   env: 
   global:
   -ENCRYPTION_LABEL: "<.... etiqueta de cifrado de la etapa anterior ....>"
